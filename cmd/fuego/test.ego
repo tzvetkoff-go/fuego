@@ -1,0 +1,5 @@
+<%% package main %>
+<%! FooBar(s string) %>
+
+<h1>Escaped, <%= s %></h1>
+<h1>Raw, <%== s %></h1>
